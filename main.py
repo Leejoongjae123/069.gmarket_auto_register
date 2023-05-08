@@ -95,7 +95,6 @@ while True:
     try:
         url='https://www.esmplus.com/'
         browser=chrome_browser(url)
-
         id='moonstylecar'
         pw='8823msc##'
         btn_mall=browser.find_element(By.CSS_SELECTOR,'#rdoSiteSelect')
